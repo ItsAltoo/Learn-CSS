@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(20deg, #793fdf, #97fff4, #ffb6d9);
+}
+
+.box {
+  color: #071952;
+  background: linear-gradient(50deg, #6499e9, #fff);
+  margin: 20px;
+  padding: 40px;
+  font-size: 20px;
+  border-radius: 10px 45px 20px 10px;
+}
+
+.box:hover {
+  color: white;
+  background-color: inherit;
+  transition-delay: 0.3s;
+}

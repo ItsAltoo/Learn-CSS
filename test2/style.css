@@ -1,0 +1,64 @@
+*,
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Black Ops One", cursive;
+}
+
+body {
+  background-image: url(https://img.freepik.com/free-vector/matrix-style-binary-code-digital-falling-numbers-blue-background_1017-37387.jpg?w=740&t=st=1696130791~exp=1696131391~hmac=5a423e772632fdc0365da2dfc1c73da85401dee94dc626185cfb1ef6746be906);
+  background-size: cover;
+}
+
+.wrapper {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: space-around;
+  height: auto;
+}
+
+.box {
+  background-color: #dbe2ef;
+  text-align: center;
+  border: 2px solid;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 2px #393e46;
+  padding: 50px;
+  margin: 20px;
+  width: 100%;
+  font-size: 20px;
+}
+
+.box:hover {
+  cursor: pointer;
+  background-color: #0f2c59;
+  color: #fff;
+  transition-delay: 0.3s;
+}
+
+.content {
+  text-align: center;
+  margin-top: 110px;
+  width: 100%;
+  font-size: 18px;
+}
+
+.image {
+  border: 2px solid;
+  box-shadow: 2px 2px 2px #393e46;
+  width: 800px;
+}
+
+.image:hover {
+  cursor: pointer;
+}
+
+.info {
+  background-color: #dbe2ef;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin-top: 8px;
+}

@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+body{
+    background-color: #393E46;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #222831;
+    height: 55px;
+    width: 100%;
+    align-items: center;
+    box-shadow: 8px 8px 8px 8px #2222;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.nav-title {
+  font-family: "Black Ops One", cursive;
+  font-family: "Dela Gothic One", cursive;
+  font-family: "Oswald", sans-serif;
+  font-family: "Pixelify Sans", cursive;
+  margin-top: 8px;
+  padding: 20px;
+}
+
+.a1,.a3{
+    color: #fff;
+    font-size: 35px;
+    margin: 5px;
+}
+
+.a2{
+    color: #F9ED69;
+    font-size: 50px;
+}
+
+.src-box{
+    display: flex;
+    max-width: 400px;
+    margin: 30px;
+}
+
+.src-box input{
+    border-radius: 6px 0px 0px 6px;
+    width: 100%;
+    max-width: 400px;
+    padding: 4px;
+    border: none;
+    background-color: rgba(255, 255,255,0.9);
+}
+
+.src-box .btn-src{
+    width: 50px;
+    background-color: #0E21A0;
+    color: #fff;
+    border: none;
+    border-radius: 0px 3px 3px 0px;
+    cursor: pointer;
+    padding: 6px 8px;
+    border: 1px solid rgba(255, 255,255,0.5);
+}
+
+.src-box .btn-src:hover{
+    background-color: #337CCF;
+    border: 1px solid #fff;
+}
+
+.wrapper{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+}
+
+.card{
+    background-color: rgba(255,255,255,0.2);
+    margin-top: 20px;
+    padding: 18px;
+    border-radius: 8px;
+    border: 1px solid #212121;
+    box-shadow: 2px 2px 2px #222831;
+    width: 180px;
+}
+
+.card:hover{
+    background-color: #351ae4;
+    color: #fff;
+    cursor: pointer;
+    transition-delay: .3s;
+    border: 1px solid #fff;
+}
+
+.card a{
+    background-color: #1107a4;
+    padding: 4px;
+    border-radius: 8px;
+    border: 1px solid #212121;
+}
+
+.card a:hover{
+    background-color: rgba(255,255,255,0.5);
+    color: #000;
+    border: 1px solid #fff;
+    transition-delay: .3s;
+}
+
+.card h1{
+    margin-bottom: 15px;
+}
